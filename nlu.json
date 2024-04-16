@@ -67,6 +67,8 @@
       "text" : "погода"
     }, {
       "text" : "weather"
+    }, {
+      "text" : "прогноз"
     } ],
     "classificationRules" : {
       "refs" : [ ]

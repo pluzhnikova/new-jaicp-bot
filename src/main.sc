@@ -13,7 +13,7 @@ theme: /
         
     state: weather
         intent!: /weather
-        q!: *~погода*
+        q!: (*~погода*,*~прогноз*)
         a: Сегодня солнечно
     
     state: currency
