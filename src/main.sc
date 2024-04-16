@@ -6,9 +6,9 @@ theme: /
        q!: $regex</start>
         a: Начнём.
 
-    state: hello
+    state: /hello
         intent!: /hello
-        q!:*hello*
+        q!:(*привет*, ~добрый *)
         a: Привет привет
         
     state: /weather
