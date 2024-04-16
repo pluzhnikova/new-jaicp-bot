@@ -8,7 +8,7 @@ theme: /
 
     state: hello
         intent!: /hello
-        q!:(*привет*, ~добрый *)
+        q!:(*дравст*,*~привет*, ~добрый *)
         a: Привет привет
         
     state: weather

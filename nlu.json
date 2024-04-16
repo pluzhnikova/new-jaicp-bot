@@ -22,6 +22,22 @@
     }
   },
   "intents" : [ {
+    "path" : "/currency",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "курс"
+    }, {
+      "text" : "валют"
+    }, {
+      "text" : "currency"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
     "path" : "/пока",
     "enabled" : true,
     "shared" : false,
@@ -42,6 +58,34 @@
     "classificationRules" : {
       "refs" : [ ]
     },
+    "priority" : 0
+  }, {
+    "path" : "/weather",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "погода"
+    }, {
+      "text" : "weather"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
+    "priority" : 0
+  }, {
+    "path" : "/hello",
+    "enabled" : true,
+    "shared" : false,
+    "phrases" : [ {
+      "text" : "hello"
+    }, {
+      "text" : "привет"
+    } ],
+    "classificationRules" : {
+      "refs" : [ ]
+    },
+    "patterns" : [ ],
     "priority" : 0
   } ],
   "entities" : [ ],
