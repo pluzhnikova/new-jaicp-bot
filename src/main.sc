@@ -7,11 +7,11 @@ theme: /
         a: Начнём.
 
     state: /hello
-        intent!: /привет
+        intent!: /hello
         a: Привет привет
         
     state: /weather
-        intent!: /погода
+        intent!: /weather
         q!: *~погода*
         a: Сегодня солнечно
     
@@ -24,6 +24,6 @@ theme: /
         event!: noMatch
         a: Я не понял :(. Вы сказали: {{$request.query}}
 
-    #state: Match
-    #    event!: match
-    #    a: {{$context.intent.answer}}
+    state: Match
+        event!: match
+        a: {{$context.intent.answer}}
