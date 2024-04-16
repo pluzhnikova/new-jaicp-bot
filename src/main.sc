@@ -11,10 +11,10 @@ theme: /
         q!:(*дравст*,*~привет*, ~добрый *)
         a: Привет привет
         
-    state: weather
-        intent!: /weather
-        q!: (*~погода*,*~прогноз*)
-        a: Сегодня солнечно
+    # state: weather
+    #     intent!: /weather
+    #     q!: (*~погода*,*~прогноз*)
+    #     a: Сегодня солнечно
     
     state: currency
         intent!: /currency
