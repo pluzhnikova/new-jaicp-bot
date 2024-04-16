@@ -27,4 +27,4 @@ theme: /
 
     state: Match
         event!: match
-        a: ААААААААА {{$context.intent.answer}}
+        a: {{$context.intent.answer}}
